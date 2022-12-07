@@ -1,6 +1,6 @@
 # Image-Segmentation-Seep-Detection-using-UNET
 
-Detecting oil seeps from Satelitte (SAR) images using deep convolutional neural networks.
+Detecting oil seeps from Satellite (SAR) images using deep convolutional neural networks.
 
 Creating a UNET model for performing segmentation
 UNET:- It is a Deep Convolutional Neural Network. The network is based on a fully convolutional network whose architecture was modified and extended to work with fewer training images and yield more precise segmentation. It performs classification on every pixel so that the input and output share the same size. UNet is able to do image localisation by predicting the image pixel by pixel which is exactly what the problem statement demands.The model would make prediction on every pixels, resulting in the detection of oil seeps from SAR images in our case
