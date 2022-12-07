@@ -10,12 +10,10 @@ For this image segmentation task I followed an encoder/decoder structure where w
 In DCNN the earlier layers tend to learn low-level features while later layers develop more high-level feature mappings.Hence the need to upsample.
 
 Evaluation Metrics Used
-1) Dice Loss:-
-
-The loss function used for our image segmentation task is based on the Dice coefficient, which is essentially a measure of overlap between two samples. This measure ranges from 0 to 1 where a Dice coefficient of 1 denotes perfect and complete overlap.
+1) Dice Loss: The loss function used for our image segmentation task is based on the Dice coefficient, which is essentially a measure of overlap between two samples. This measure ranges from 0 to 1 where a Dice coefficient of 1 denotes perfect and complete overlap.
 
 2) Dice Coefficient
 
-3) IOU:- The Intersection over Union metric (Jaccard index) is essentially a method to quantify the percent overlap between the target mask and our prediction output.
+3) IOU: The Intersection over Union metric (Jaccard index) is essentially a method to quantify the percent overlap between the target mask and our prediction output.
 
 4) Accuracy
